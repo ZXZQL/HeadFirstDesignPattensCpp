@@ -1,10 +1,8 @@
+
 #include "Duck.h"
-#include "FlyBehavior.h"
-#include "QuackBehavior.h"
 #include "iostream"
 
 using namespace DesignPattern;
-
 using std::cout;
 using std::endl;
 

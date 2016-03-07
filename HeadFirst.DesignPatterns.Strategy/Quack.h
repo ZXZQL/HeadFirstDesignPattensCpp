@@ -1,4 +1,5 @@
 #pragma once
+
 #include "QuackBehavior.h"
 
 namespace DesignPattern

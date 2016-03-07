@@ -5,14 +5,10 @@ namespace DesignPattern
 	class FlyBehavior
 	{
 	public:
-		FlyBehavior()
-		{
-		}
+		FlyBehavior(){}
+		virtual ~FlyBehavior(){}
 
-		virtual ~FlyBehavior()
-		{
-		}
-
+	public:
 		virtual void fly() = 0;
 	};
 }

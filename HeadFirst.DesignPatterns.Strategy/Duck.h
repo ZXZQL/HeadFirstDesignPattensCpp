@@ -1,5 +1,8 @@
 #pragma once
 
+#include "FlyBehavior.h"
+#include "QuackBehavior.h"
+
 namespace DesignPattern
 {
 	class Duck

@@ -83,7 +83,6 @@
     <ClInclude Include="MallardDuck.h" />
     <ClInclude Include="Quack.h" />
     <ClInclude Include="QuackBehavior.h" />
-    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Duck.cpp" />

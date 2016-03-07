@@ -2,7 +2,6 @@
 #include "iostream"
 
 using namespace DesignPattern;
-
 using std::cout;
 using std::endl;
 

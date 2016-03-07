@@ -1,3 +1,4 @@
+#include "Duck.h"
 #include "FlyWithWings.h"
 #include "Quack.h"
 #include "MallardDuck.h"

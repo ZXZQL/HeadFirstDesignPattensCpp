@@ -1,3 +1,4 @@
+#include "Duck.h"
 #include "MallardDuck.h"
 
 using namespace DesignPattern;

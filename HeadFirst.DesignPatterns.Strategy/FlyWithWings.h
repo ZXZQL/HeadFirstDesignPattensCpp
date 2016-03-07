@@ -1,4 +1,5 @@
 #pragma once
+
 #include "FlyBehavior.h"
 
 namespace DesignPattern
