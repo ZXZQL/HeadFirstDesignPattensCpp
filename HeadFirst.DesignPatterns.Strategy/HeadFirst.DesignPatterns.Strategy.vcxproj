@@ -78,6 +78,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Duck.h" />
+    <ClInclude Include="FlyBehavior.h" />
+    <ClInclude Include="FlyWithWings.h" />
+    <ClInclude Include="MallardDuck.h" />
+    <ClInclude Include="Quack.h" />
+    <ClInclude Include="QuackBehavior.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Duck.cpp" />
+    <ClCompile Include="FlyWithWings.cpp" />
+    <ClCompile Include="MallardDuck.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Quack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
