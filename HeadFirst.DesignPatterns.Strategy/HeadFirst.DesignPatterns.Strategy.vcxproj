@@ -79,6 +79,8 @@
   <ItemGroup>
     <ClInclude Include="Duck.h" />
     <ClInclude Include="FlyBehavior.h" />
+    <ClInclude Include="FlyNoWay.h" />
+    <ClInclude Include="FlyRocketPowered.h" />
     <ClInclude Include="FlyWithWings.h" />
     <ClInclude Include="MallardDuck.h" />
     <ClInclude Include="ModelDuck.h" />
@@ -87,6 +89,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Duck.cpp" />
+    <ClCompile Include="FlyNoWay.cpp" />
+    <ClCompile Include="FlyRocketPowered.cpp" />
     <ClCompile Include="FlyWithWings.cpp" />
     <ClCompile Include="MallardDuck.cpp" />
     <ClCompile Include="ModelDuck.cpp" />

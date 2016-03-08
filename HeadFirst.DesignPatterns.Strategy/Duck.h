@@ -19,9 +19,9 @@ namespace DesignPattern
 		CDuck();
 		virtual ~CDuck();
 
-	public :
+	public:
 		virtual void display() = 0;
-		void swin();		
+		void swin();
 		void setFlyBehavior(IFlyBehavior *fly);
 		void setQuackBehavior(IQuackBehavior *quack);
 		void performFly();

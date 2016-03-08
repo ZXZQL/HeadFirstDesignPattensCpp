@@ -15,7 +15,7 @@ DesignPattern::CDuck::~CDuck()
 {
 	delete flyBehavior;
 	delete quackBehavior;
-	cout << "==* Release Memory for Duck *==" << endl;
+	cout << "\t\t\t\t==* Release Memory for Duck *==" << endl;
 }
 
 void DesignPattern::CDuck::swin()
@@ -25,11 +25,19 @@ void DesignPattern::CDuck::swin()
 
 void DesignPattern::CDuck::setFlyBehavior(IFlyBehavior *fly)
 {
+	if (this->flyBehavior != nullptr)
+	{
+		delete this->flyBehavior;
+	}
 	this->flyBehavior = fly;
 }
 
 void DesignPattern::CDuck::setQuackBehavior(IQuackBehavior *quack)
 {
+	if (this->quackBehavior != nullptr)
+	{
+		delete this->quackBehavior;
+	}
 	this->quackBehavior = quack;
 }
 

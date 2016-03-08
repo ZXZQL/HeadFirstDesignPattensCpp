@@ -9,7 +9,7 @@ namespace DesignPattern
 	class IQuackBehavior
 	{
 	public:
-		IQuackBehavior(){	}
+		IQuackBehavior(){}
 		virtual ~IQuackBehavior(){}
 
 	public:

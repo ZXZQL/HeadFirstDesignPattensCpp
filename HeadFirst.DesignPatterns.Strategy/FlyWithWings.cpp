@@ -8,12 +8,12 @@ DesignPattern::CFlyWithWings::CFlyWithWings()
 {
 }
 
-
 DesignPattern::CFlyWithWings::~CFlyWithWings()
 {
+	cout << "\t\t\t\t==* Release Memory for FlyWithWings *==" << endl;
 }
 
 void DesignPattern::CFlyWithWings::fly()
 {
-	cout << "I'm flying!" << endl;
+	cout << "I am flying!" << endl;
 }

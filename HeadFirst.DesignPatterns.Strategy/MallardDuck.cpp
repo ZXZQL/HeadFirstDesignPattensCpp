@@ -10,15 +10,15 @@ using std::endl;
 DesignPattern::CMallardDuck::CMallardDuck()
 {
 	flyBehavior = new CFlyWithWings();
-	quackBehavior = new Quack();
+	quackBehavior = new CQuack();
 }
 
 DesignPattern::CMallardDuck::~CMallardDuck()
 {
-	cout << "==* Release Memory for MallardDuck *=="<<endl;
+	cout << "\t\t\t\t==* Release Memory for MallardDuck *=="<<endl;
 }
 
 void DesignPattern::CMallardDuck::display()
 {
-	cout << "I'm a Mallard duck!" << endl;
+	cout << "I'm a mallardduck!" << endl;
 }

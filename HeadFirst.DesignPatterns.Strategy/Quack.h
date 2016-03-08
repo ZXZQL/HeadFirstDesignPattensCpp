@@ -8,11 +8,11 @@ namespace DesignPattern
 	 *分类：类
 	 *名称：咕咕叫行为
 	 **/
-	class Quack :public IQuackBehavior
+	class CQuack :public IQuackBehavior
 	{
 	public:
-		Quack();
-		virtual ~Quack();
+		CQuack();
+		virtual ~CQuack();
 		
 	public :
 		void quack();
