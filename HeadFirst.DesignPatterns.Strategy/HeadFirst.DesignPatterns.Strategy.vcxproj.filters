@@ -29,6 +29,9 @@
     <ClInclude Include="Quack.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ModelDuck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Duck.cpp">
@@ -44,6 +47,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Program.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelDuck.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

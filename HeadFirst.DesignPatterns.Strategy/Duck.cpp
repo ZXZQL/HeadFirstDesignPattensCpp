@@ -2,43 +2,43 @@
 #include "Duck.h"
 #include "iostream"
 
-using namespace DesignPattern;
 using std::cout;
 using std::endl;
 
-Duck::Duck()
+DesignPattern::CDuck::CDuck()
 {
 	flyBehavior = nullptr;
 	quackBehavior = nullptr;
 }
 
-Duck::~Duck()
+DesignPattern::CDuck::~CDuck()
 {
 	delete flyBehavior;
 	delete quackBehavior;
+	cout << "==* Release Memory for Duck *==" << endl;
 }
 
-void Duck::swin()
+void DesignPattern::CDuck::swin()
 {
 	cout << "All ducks float, even decoys!" << endl;
 }
 
-void Duck::setFlyBehavior(FlyBehavior *fly)
+void DesignPattern::CDuck::setFlyBehavior(IFlyBehavior *fly)
 {
 	this->flyBehavior = fly;
 }
 
-void Duck::setQuackBehavior(QuackBehavior *quack)
+void DesignPattern::CDuck::setQuackBehavior(IQuackBehavior *quack)
 {
 	this->quackBehavior = quack;
 }
 
-void DesignPattern::Duck::performFly()
+void DesignPattern::CDuck::performFly()
 {
 	flyBehavior->fly();
 }
 
-void DesignPattern::Duck::performQuack()
+void DesignPattern::CDuck::performQuack()
 {
 	quackBehavior->quack();
 }

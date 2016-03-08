@@ -5,15 +5,14 @@
 namespace DesignPattern
 {
 	/*
-	 *咕咕叫行为
+	 *分类：类
+	 *名称：咕咕叫行为
 	 **/
-	class Quack :public QuackBehavior
+	class Quack :public IQuackBehavior
 	{
 	public:
 		Quack();
 		virtual ~Quack();
-
-	public:
 		
 	public :
 		void quack();

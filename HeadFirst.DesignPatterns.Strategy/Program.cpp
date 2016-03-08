@@ -5,7 +5,7 @@ using namespace DesignPattern;
 
 int main()
 {
-	MallardDuck *duck = new MallardDuck();
+	CMallardDuck *duck = new CMallardDuck();
 	duck->performFly();
 	duck->performQuack();
 	duck->display();

@@ -5,13 +5,14 @@
 namespace DesignPattern
 {
 	/*
-	 *驯化野鸭
+	 *分类：类
+	 *名称：驯化野鸭类
 	 **/
-	class MallardDuck : public Duck
+	class CMallardDuck : public CDuck
 	{
 	public:
-		MallardDuck();
-		virtual ~MallardDuck();
+		CMallardDuck();
+		virtual ~CMallardDuck();
 
 	public:
 		void display();

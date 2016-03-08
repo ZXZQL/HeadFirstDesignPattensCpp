@@ -1,20 +1,19 @@
 #include "FlyWithWings.h"
 #include "iostream"
 
-using namespace DesignPattern;
 using std::cout;
 using std::endl;
 
-FlyWithWings::FlyWithWings()
+DesignPattern::CFlyWithWings::CFlyWithWings()
 {
 }
 
 
-FlyWithWings::~FlyWithWings()
+DesignPattern::CFlyWithWings::~CFlyWithWings()
 {
 }
 
-void FlyWithWings::fly()
+void DesignPattern::CFlyWithWings::fly()
 {
 	cout << "I'm flying!" << endl;
 }

@@ -2,17 +2,17 @@
 #include "Quack.h"
 #include "iostream"
 
-using namespace DesignPattern;
 using std::cout;
 using std::endl;
 
-Quack::Quack()
+DesignPattern::Quack::Quack()
 {
 }
 
 
-Quack::~Quack()
+DesignPattern::Quack::~Quack()
 {
+
 }
 
 void DesignPattern::Quack::quack()

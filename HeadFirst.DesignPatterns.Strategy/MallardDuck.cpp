@@ -4,22 +4,21 @@
 #include "MallardDuck.h"
 #include "iostream"
 
-using namespace DesignPattern;
-
 using std::cout;
 using std::endl;
 
-MallardDuck::MallardDuck()
+DesignPattern::CMallardDuck::CMallardDuck()
 {
-	flyBehavior = new FlyWithWings();
+	flyBehavior = new CFlyWithWings();
 	quackBehavior = new Quack();
 }
 
-MallardDuck::~MallardDuck()
+DesignPattern::CMallardDuck::~CMallardDuck()
 {
+	cout << "==* Release Memory for MallardDuck *=="<<endl;
 }
 
-void MallardDuck::display()
+void DesignPattern::CMallardDuck::display()
 {
 	cout << "I'm a Mallard duck!" << endl;
 }

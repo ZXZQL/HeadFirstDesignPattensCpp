@@ -3,13 +3,14 @@
 namespace DesignPattern
 {
 	/*
-	 *飞行行为接口
+	 *分类：接口
+	 *名称：飞行行为接口
 	 */
-	class FlyBehavior
+	class IFlyBehavior
 	{
 	public:
-		FlyBehavior(){}
-		virtual ~FlyBehavior(){}
+		IFlyBehavior(){}
+		virtual ~IFlyBehavior(){}
 
 	public:
 		virtual void fly() = 0;

@@ -81,6 +81,7 @@
     <ClInclude Include="FlyBehavior.h" />
     <ClInclude Include="FlyWithWings.h" />
     <ClInclude Include="MallardDuck.h" />
+    <ClInclude Include="ModelDuck.h" />
     <ClInclude Include="Quack.h" />
     <ClInclude Include="QuackBehavior.h" />
   </ItemGroup>
@@ -88,6 +89,7 @@
     <ClCompile Include="Duck.cpp" />
     <ClCompile Include="FlyWithWings.cpp" />
     <ClCompile Include="MallardDuck.cpp" />
+    <ClCompile Include="ModelDuck.cpp" />
     <ClCompile Include="Program.cpp" />
     <ClCompile Include="Quack.cpp" />
   </ItemGroup>

@@ -5,15 +5,15 @@
 namespace DesignPattern
 {
 	/*
-	 *用翅膀的飞行行为
+	 *分类：接口
+	 *名称：用翅膀的飞行行为
 	 **/
-	class FlyWithWings : public FlyBehavior
+	class CFlyWithWings : public IFlyBehavior
 	{
 	public:
-		FlyWithWings();
-		virtual ~FlyWithWings();
+		CFlyWithWings();
+		virtual ~CFlyWithWings();
 
-	public:
 	public :
 		void fly();
 	};

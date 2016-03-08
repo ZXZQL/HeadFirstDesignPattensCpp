@@ -6,23 +6,24 @@
 namespace DesignPattern
 {
 	/*
-	 *鸭子基类
+	 *分类：类
+	 *名称：鸭子基类
 	 **/
-	class Duck
+	class CDuck
 	{
 	protected:
-		FlyBehavior *flyBehavior;
-		QuackBehavior *quackBehavior;
+		IFlyBehavior *flyBehavior;
+		IQuackBehavior *quackBehavior;
 
 	public:
-		Duck();
-		virtual ~Duck();
+		CDuck();
+		virtual ~CDuck();
 
 	public :
 		virtual void display() = 0;
 		void swin();		
-		void setFlyBehavior(FlyBehavior *fly);
-		void setQuackBehavior(QuackBehavior *quack);
+		void setFlyBehavior(IFlyBehavior *fly);
+		void setQuackBehavior(IQuackBehavior *quack);
 		void performFly();
 		void performQuack();
 	};
