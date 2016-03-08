@@ -4,6 +4,9 @@
 
 namespace DesignPattern
 {
+	/*
+	 *用翅膀的飞行行为
+	 **/
 	class FlyWithWings : public FlyBehavior
 	{
 	public:

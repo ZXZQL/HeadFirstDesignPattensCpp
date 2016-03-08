@@ -4,6 +4,9 @@
 
 namespace DesignPattern
 {
+	/*
+	 *¹¾¹¾½ÐÐÐÎª
+	 **/
 	class Quack :public QuackBehavior
 	{
 	public:

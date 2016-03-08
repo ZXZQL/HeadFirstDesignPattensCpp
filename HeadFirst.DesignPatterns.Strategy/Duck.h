@@ -5,6 +5,9 @@
 
 namespace DesignPattern
 {
+	/*
+	 *Ñ¼×Ó»ùÀà
+	 **/
 	class Duck
 	{
 	protected:

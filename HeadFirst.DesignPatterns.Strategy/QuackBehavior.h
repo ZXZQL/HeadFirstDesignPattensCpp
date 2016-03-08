@@ -2,6 +2,9 @@
 
 namespace DesignPattern
 {
+	/*
+	*咕咕叫行为接口
+	**/
 	class QuackBehavior
 	{
 	public:

@@ -2,6 +2,9 @@
 
 namespace DesignPattern
 {
+	/*
+	 *飞行行为接口
+	 */
 	class FlyBehavior
 	{
 	public:

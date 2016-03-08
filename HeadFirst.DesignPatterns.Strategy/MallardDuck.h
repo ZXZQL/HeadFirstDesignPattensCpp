@@ -4,6 +4,9 @@
 
 namespace DesignPattern
 {
+	/*
+	 *Ñ±»¯Ò°Ñ¼
+	 **/
 	class MallardDuck : public Duck
 	{
 	public:
