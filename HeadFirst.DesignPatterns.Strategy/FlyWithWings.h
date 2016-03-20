@@ -2,11 +2,11 @@
 
 #include "FlyBehavior.h"
 
-namespace DesignPattern
+namespace DesignPatterns_Strategy
 {
 	/*
 	 *分类：接口
-	 *名称：用翅膀的飞行行为
+	 *名称：用翅膀飞行
 	 **/
 	class CFlyWithWings : public IFlyBehavior
 	{

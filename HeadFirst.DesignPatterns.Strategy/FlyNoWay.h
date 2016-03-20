@@ -1,7 +1,7 @@
 #pragma once
 #include "FlyBehavior.h"
 
-namespace DesignPattern
+namespace DesignPatterns_Strategy
 {
 	/*
 	 *∑÷¿‡£∫¿‡

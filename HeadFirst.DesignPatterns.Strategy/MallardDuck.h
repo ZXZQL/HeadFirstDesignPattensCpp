@@ -2,7 +2,7 @@
 
 #include "Duck.h"
 
-namespace DesignPattern
+namespace DesignPatterns_Strategy
 {
 	/*
 	 *∑÷¿‡£∫¿‡

@@ -5,25 +5,25 @@
 using std::cout;
 using std::endl;
 
-DesignPattern::CDuck::CDuck()
+DesignPatterns_Strategy::CDuck::CDuck()
 {
 	flyBehavior = nullptr;
 	quackBehavior = nullptr;
 }
 
-DesignPattern::CDuck::~CDuck()
+DesignPatterns_Strategy::CDuck::~CDuck()
 {
 	delete flyBehavior;
 	delete quackBehavior;
 	cout << "\t\t\t\t==* Release Memory for Duck *==" << endl;
 }
 
-void DesignPattern::CDuck::swin()
+void DesignPatterns_Strategy::CDuck::swin()
 {
 	cout << "All ducks float, even decoys!" << endl;
 }
 
-void DesignPattern::CDuck::setFlyBehavior(IFlyBehavior *fly)
+void DesignPatterns_Strategy::CDuck::setFlyBehavior(IFlyBehavior *fly)
 {
 	if (this->flyBehavior != nullptr)
 	{
@@ -32,7 +32,7 @@ void DesignPattern::CDuck::setFlyBehavior(IFlyBehavior *fly)
 	this->flyBehavior = fly;
 }
 
-void DesignPattern::CDuck::setQuackBehavior(IQuackBehavior *quack)
+void DesignPatterns_Strategy::CDuck::setQuackBehavior(IQuackBehavior *quack)
 {
 	if (this->quackBehavior != nullptr)
 	{
@@ -41,12 +41,12 @@ void DesignPattern::CDuck::setQuackBehavior(IQuackBehavior *quack)
 	this->quackBehavior = quack;
 }
 
-void DesignPattern::CDuck::performFly()
+void DesignPatterns_Strategy::CDuck::performFly()
 {
 	flyBehavior->fly();
 }
 
-void DesignPattern::CDuck::performQuack()
+void DesignPatterns_Strategy::CDuck::performQuack()
 {
 	quackBehavior->quack();
 }

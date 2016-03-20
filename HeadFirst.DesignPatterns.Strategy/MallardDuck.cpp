@@ -7,18 +7,18 @@
 using std::cout;
 using std::endl;
 
-DesignPattern::CMallardDuck::CMallardDuck()
+DesignPatterns_Strategy::CMallardDuck::CMallardDuck()
 {
 	flyBehavior = new CFlyWithWings();
 	quackBehavior = new CQuack();
 }
 
-DesignPattern::CMallardDuck::~CMallardDuck()
+DesignPatterns_Strategy::CMallardDuck::~CMallardDuck()
 {
 	cout << "\t\t\t\t==* Release Memory for MallardDuck *=="<<endl;
 }
 
-void DesignPattern::CMallardDuck::display()
+void DesignPatterns_Strategy::CMallardDuck::display()
 {
 	cout << "I'm a mallardduck!" << endl;
 }

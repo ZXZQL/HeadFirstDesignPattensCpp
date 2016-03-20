@@ -4,17 +4,17 @@
 using std::cout;
 using std::endl;
 
-DesignPattern::CFlyRocketPowered::CFlyRocketPowered()
+DesignPatterns_Strategy::CFlyRocketPowered::CFlyRocketPowered()
 {
 
 }
 
-DesignPattern::CFlyRocketPowered::~CFlyRocketPowered()
+DesignPatterns_Strategy::CFlyRocketPowered::~CFlyRocketPowered()
 {
 	cout << "\t\t\t\t==* Release Memory for FlyRocketPowered *==" << endl;
 }
 
-void DesignPattern::CFlyRocketPowered::fly()
+void DesignPatterns_Strategy::CFlyRocketPowered::fly()
 {
 	cout << "I'm flying with a rocket!"<<endl;
 }

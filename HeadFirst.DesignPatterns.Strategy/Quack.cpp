@@ -5,16 +5,16 @@
 using std::cout;
 using std::endl;
 
-DesignPattern::CQuack::CQuack()
+DesignPatterns_Strategy::CQuack::CQuack()
 {
 }
 
-DesignPattern::CQuack::~CQuack()
+DesignPatterns_Strategy::CQuack::~CQuack()
 {
 	cout << "\t\t\t\t==* Release Memory for Quack *==" << endl;
 }
 
-void DesignPattern::CQuack::quack()
+void DesignPatterns_Strategy::CQuack::quack()
 {
 	cout << "Quack." << endl;
 }

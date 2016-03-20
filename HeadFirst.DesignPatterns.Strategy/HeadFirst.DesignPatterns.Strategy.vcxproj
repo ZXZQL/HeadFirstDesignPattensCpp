@@ -94,7 +94,7 @@
     <ClCompile Include="FlyWithWings.cpp" />
     <ClCompile Include="MallardDuck.cpp" />
     <ClCompile Include="ModelDuck.cpp" />
-    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="DesignPatterns.Strategy.cpp" />
     <ClCompile Include="Quack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

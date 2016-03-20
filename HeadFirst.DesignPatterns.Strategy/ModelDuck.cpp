@@ -5,18 +5,18 @@
 using std::cout;
 using std::endl;
 
-DesignPattern::CModelDuck::CModelDuck()
+DesignPatterns_Strategy::CModelDuck::CModelDuck()
 {
 	flyBehavior = new CFlyNoWay();
 	quackBehavior = new CQuack();
 }
 
-DesignPattern::CModelDuck::~CModelDuck()
+DesignPatterns_Strategy::CModelDuck::~CModelDuck()
 {
 	cout << "\t\t\t\t==* Release Memory for ModelDuck *==" << endl;
 }
 
-void DesignPattern::CModelDuck::display()
+void DesignPatterns_Strategy::CModelDuck::display()
 {
 	cout << "I am a model duck!"<<endl;
 }

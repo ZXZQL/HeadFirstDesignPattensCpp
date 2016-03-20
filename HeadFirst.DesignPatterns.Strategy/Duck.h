@@ -3,7 +3,7 @@
 #include "FlyBehavior.h"
 #include "QuackBehavior.h"
 
-namespace DesignPattern
+namespace DesignPatterns_Strategy
 {
 	/*
 	 *∑÷¿‡£∫¿‡

@@ -1,6 +1,6 @@
 #pragma once
 
-namespace DesignPattern
+namespace DesignPatterns_Strategy
 {
 	/*
 	 *分类：接口

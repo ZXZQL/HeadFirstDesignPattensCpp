@@ -1,7 +1,7 @@
 #pragma once
 #include "Duck.h"
 #include "iostream"
-namespace DesignPattern
+namespace DesignPatterns_Strategy
 {
 	/*
 	 *∑÷¿‡£∫¿‡

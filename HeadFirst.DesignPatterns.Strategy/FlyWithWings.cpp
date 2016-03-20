@@ -4,16 +4,16 @@
 using std::cout;
 using std::endl;
 
-DesignPattern::CFlyWithWings::CFlyWithWings()
+DesignPatterns_Strategy::CFlyWithWings::CFlyWithWings()
 {
 }
 
-DesignPattern::CFlyWithWings::~CFlyWithWings()
+DesignPatterns_Strategy::CFlyWithWings::~CFlyWithWings()
 {
 	cout << "\t\t\t\t==* Release Memory for FlyWithWings *==" << endl;
 }
 
-void DesignPattern::CFlyWithWings::fly()
+void DesignPatterns_Strategy::CFlyWithWings::fly()
 {
 	cout << "I am flying!" << endl;
 }

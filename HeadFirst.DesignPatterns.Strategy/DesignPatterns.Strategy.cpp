@@ -3,7 +3,7 @@
 #include "ModelDuck.h"
 #include "FlyRocketPowered.h"
 
-using namespace DesignPattern;
+using namespace DesignPatterns_Strategy;
 
 int main()
 {
