@@ -5,22 +5,23 @@ using std::list;
 
 namespace DesignPatterns_Observer
 {
-	class Observer;
+	class IObserver;
 	/*
 	 *可观察对象
 	 */
-	class Subject
+	class ISubject
 	{
 	private:
-		list<Observer*> Observers;
+		//存储观察者对象指针
+		list<IObserver*> Observers;
 
 	public:
-		Subject();
-		virtual ~Subject();
+		ISubject();
+		virtual ~ISubject();
 
 	public:
-		void registerObserver(Observer* o);
-		void removeObserver(Observer* o);
+		void registerObserver(IObserver* o);
+		void removeObserver(IObserver* o);
 		void notifyObservers();
 	};
 }

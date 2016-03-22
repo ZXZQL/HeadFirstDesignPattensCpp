@@ -7,17 +7,16 @@ namespace DesignPatterns_Observer
 	/*
 	 *π€≤Ï’ﬂ
 	 */
-	class Observer
+	class IObserver
 	{
-	private:
-		Subject *subject;
+	protected:
+		ISubject *subject;
 
 	public:
-		Observer(Subject* subject);
-
-		virtual ~Observer();
+		IObserver(ISubject* subject);
+		virtual ~IObserver();
 
 	public:
-		virtual void update() = 0;
+		virtual void update(ISubject *subj) = 0;
 	};
 }

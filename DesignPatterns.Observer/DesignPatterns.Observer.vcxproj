@@ -76,11 +76,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CurrentConditionsDisplay.cpp" />
+    <ClCompile Include="StatisticsDisplay.cpp" />
+    <ClCompile Include="WeatherData.cpp" />
     <ClCompile Include="DesignPatterns.Observer.cpp" />
     <ClCompile Include="Observer.cpp" />
     <ClCompile Include="Subject.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CurrentConditionsDisplay.h" />
+    <ClInclude Include="DisplayElement.h" />
+    <ClInclude Include="StatisticsDisplay.h" />
+    <ClInclude Include="WeatherData.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="Subject.h" />
   </ItemGroup>

@@ -24,12 +24,33 @@
     <ClCompile Include="Subject.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="WeatherData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentConditionsDisplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsDisplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Observer.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Subject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentConditionsDisplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsDisplay.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

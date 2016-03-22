@@ -1,12 +1,16 @@
 
 #include "Observer.h"
 
-DesignPatterns_Observer::Observer::~Observer()
+DesignPatterns_Observer::IObserver::~IObserver()
 {
-	delete subject;
+	//可观察对象的指针应该由其自己维护
+	/*if (subject != nullptr)
+			{
+			delete subject;
+			}*/
 }
 
-DesignPatterns_Observer::Observer::Observer(Subject* subject)
+DesignPatterns_Observer::IObserver::IObserver(ISubject* subj)
 {
-	this->subject = subject;
+	this->subject = subj;
 }
