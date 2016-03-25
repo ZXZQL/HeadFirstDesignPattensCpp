@@ -1,11 +1,12 @@
 #pragma once
 
 #include <list>   
-using std::list;
 
 namespace DesignPatterns_Observer
 {
+	//类型前置声明
 	class IObserver;
+
 	/*
 	 *可观察对象
 	 */
@@ -13,7 +14,7 @@ namespace DesignPatterns_Observer
 	{
 	private:
 		//存储观察者对象指针
-		list<IObserver*> Observers;
+		std::list<IObserver*> Observers;
 
 	public:
 		ISubject();
