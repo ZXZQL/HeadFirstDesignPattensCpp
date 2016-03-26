@@ -1,9 +1,10 @@
 #pragma once
 
-#include "Subject.h"
-
 namespace DesignPatterns_Observer
 {
+	//前置声明
+	class ISubject;
+
 	/*
 	 *观察者
 	 */

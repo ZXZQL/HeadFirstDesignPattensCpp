@@ -11,7 +11,7 @@ CWeatherData::CWeatherData()
 
 CWeatherData::~CWeatherData()
 {
-iostream:std::cout << "\t\t==释放天气对象." << std::endl;
+	std::cout << "\t\t==释放天气对象." << std::endl;
 }
 
 void CWeatherData::measurementsChanged()
