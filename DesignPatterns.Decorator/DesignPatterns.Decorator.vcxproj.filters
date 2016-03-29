@@ -18,5 +18,64 @@
     <ClCompile Include="DesignPatterns.Decorator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CondimentDecorator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Espresso.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseBlend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mocha.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkRoast.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Decaf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Milk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Soy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Whip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Beverage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CondimentDecorator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Espresso.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HouseBlend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mocha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkRoast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Decaf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Milk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Soy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Whip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

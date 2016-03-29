@@ -76,7 +76,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CondimentDecorator.cpp" />
+    <ClCompile Include="DarkRoast.cpp" />
+    <ClCompile Include="Decaf.cpp" />
     <ClCompile Include="DesignPatterns.Decorator.cpp" />
+    <ClCompile Include="Espresso.cpp" />
+    <ClCompile Include="HouseBlend.cpp" />
+    <ClCompile Include="Milk.cpp" />
+    <ClCompile Include="Mocha.cpp" />
+    <ClCompile Include="Soy.cpp" />
+    <ClCompile Include="Whip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Beverage.h" />
+    <ClInclude Include="CondimentDecorator.h" />
+    <ClInclude Include="DarkRoast.h" />
+    <ClInclude Include="Decaf.h" />
+    <ClInclude Include="Espresso.h" />
+    <ClInclude Include="HouseBlend.h" />
+    <ClInclude Include="Milk.h" />
+    <ClInclude Include="Mocha.h" />
+    <ClInclude Include="Soy.h" />
+    <ClInclude Include="Whip.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
