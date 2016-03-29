@@ -2,7 +2,7 @@
 
 DesignPatterns_Decorator::CDarkRoast::CDarkRoast()
 {
-	description = "Dark Roast Coffee"
+	description = "Dark Roast Coffee";
 }
 
 DesignPatterns_Decorator::CDarkRoast::~CDarkRoast()
