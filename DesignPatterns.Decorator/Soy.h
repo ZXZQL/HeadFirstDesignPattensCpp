@@ -1,9 +1,9 @@
 #pragma once
-#include "Beverage.h"
+#include "CondimentDecorator.h"
 
 namespace DesignPatterns_Decorator
 {
-	class CSoy : public CBeverage
+	class CSoy : public  CCondimentDecorator
 	{
 	protected:
 		CBeverage *beverage;
@@ -14,5 +14,6 @@ namespace DesignPatterns_Decorator
 
 	public:
 		virtual double cost() override;
+		virtual string getDescription() override;
 	};
 }

@@ -14,6 +14,6 @@ namespace DesignPatterns_Decorator
 
 	public:
 		virtual double cost() override;
-		string getDescription();
+		string getDescription() override;
 	};
 }
