@@ -12,23 +12,23 @@ using namespace DesignPatterns_Decorator;
 int main()
 {
 	CBeverage* beverage = new CEspresso();
-	cout << beverage->getDescription() << " $" << beverage->cost() << endl;
+	cout << " $" << beverage->cost() << "\t" << beverage->getDescription() << endl;
+
+	beverage = new CWhip(beverage);
+	cout << " $" << beverage->cost() << "\t" << beverage->getDescription() << endl;
 
 	CBeverage *beverage2 = new CDarkRoast();
 	beverage2 = new CMocha(beverage2);
 	beverage2 = new CMocha(beverage2);
 	beverage2 = new CWhip(beverage2);
 
-	cout << beverage2->getDescription() << " $" << beverage2->cost() << endl;
-
-	beverage2 = new CWhip(beverage2);
-	cout << beverage2->getDescription() + " $" << beverage2->cost() << endl;
+	cout << " $" << beverage2->cost() << "\t" << beverage2->getDescription() << endl;
 
 	CBeverage *beverage3 = new CHouseBlend();
 	beverage3 = new CSoy(beverage3);
 	beverage3 = new CMocha(beverage3);
 	beverage3 = new CWhip(beverage3);
-	cout << beverage3->getDescription() + " $" << beverage3->cost() << endl;
+	cout << " $" << beverage3->cost() << "\t" << beverage3->getDescription() << endl;
 
 	return 0;
 }

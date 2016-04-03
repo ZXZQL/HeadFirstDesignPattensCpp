@@ -12,5 +12,5 @@ DesignPatterns_Decorator::CDarkRoast::~CDarkRoast()
 
 double DesignPatterns_Decorator::CDarkRoast::cost()
 {
-	return .99;
+	return 0.99f;
 }

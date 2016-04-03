@@ -1,6 +1,9 @@
 #pragma once
 #include "Beverage.h"
 
+/*
+*ÒûÁÏ
+**/
 namespace DesignPatterns_Decorator
 {
 	class CHouseBlend : public CBeverage

@@ -1,6 +1,9 @@
 #pragma once
 #include "CondimentDecorator.h"
 
+/*
+*µ÷ÁÏ
+**/
 namespace DesignPatterns_Decorator
 {
 	class CMocha : public CCondimentDecorator
@@ -14,6 +17,6 @@ namespace DesignPatterns_Decorator
 
 	public:
 		virtual double cost() override;
-		string getDescription();
+		string getDescription() override;
 	};
 }

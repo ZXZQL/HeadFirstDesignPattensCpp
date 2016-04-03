@@ -2,6 +2,9 @@
 
 #include "Beverage.h"
 
+/*
+*ÒûÁÏ
+**/
 namespace DesignPatterns_Decorator
 {
 	class CEspresso : public CBeverage

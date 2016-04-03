@@ -17,3 +17,8 @@ double DesignPatterns_Decorator::CWhip::cost()
 {
 	return beverage->cost() + 0.10f;
 }
+
+DesignPatterns_Decorator::string DesignPatterns_Decorator::CWhip::getDescription()
+{
+	return beverage->getDescription() + ", Whip";
+}
